@@ -1,0 +1,27 @@
+# PlatformIO
+.pio/
+.vscode/
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+
+# Python virtual environment
+.venv/
+
+# Secrets (CRITICAL!)
+include/secrets.h
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
