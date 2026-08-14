@@ -25,3 +25,9 @@ include/secrets.h
 
 # Logs
 *.log
+
+# Nix
+.platformio/
+.direnv/
+result
+result-*
